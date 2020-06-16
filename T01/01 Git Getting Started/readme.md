@@ -10,11 +10,13 @@
 
 ## Labs
 
-[Version Controlling with Git - Exercises 1 - 5](https://www.azuredevopslabs.com/labs/azuredevops/git/)
+[Version Controlling with Git in Azure Repos - Exercises 1 - 5](https://www.azuredevopslabs.com/labs/azuredevops/git/)
 
 ## Learning Labs:
 
 [Introduction to Git](https://docs.microsoft.com/en-us/learn/modules/intro-to-git/)
+
+[Learning Path - Introduction to version control with Git](https://docs.microsoft.com/en-us/learn/paths/intro-to-vc-git/)
 
 # Git / Github Essentials
 
@@ -90,6 +92,8 @@ Add a `.gitignore` file to the root of your project. A valid `.gitignore` file c
 
 ## Refresh from Upstream
 
+> Note: You can use this guide to refresh changes I made during the week to your forked repo
+
 Open Git Bash.
 
 List the current configured remote repository for your fork.
@@ -120,8 +124,6 @@ Fetch from Upstream:
 
 ```
  git fetch upstream
+ git merge upstream/master
+ git push origin master
 ```
-
-# Labs & Walkthroughts
-
-[Learning Path - Introduction to version control with Git](https://docs.microsoft.com/en-us/learn/paths/intro-to-vc-git/)

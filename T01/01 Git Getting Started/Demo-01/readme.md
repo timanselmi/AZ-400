@@ -14,7 +14,7 @@ Init Git:
 ```
 git init
 git add .
-git commit -m "initialW
+git commit -m "initial"
 ```
 
 Create a feature branch:
